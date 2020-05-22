@@ -1,4 +1,4 @@
-# Weather Dashboard
+# The BESTimator
   ![GitHub repo size](https://img.shields.io/github/repo-size/Linus41/Bestimator?style=for-the-badge) ![GitHub code size](https://img.shields.io/github/languages/code-size/Linus41/Bestimator?color=gold&style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/Linus41/Bestimator?color=green&style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/Linus41/Bestimator?color=red&style=for-the-badge)
 
 ---
