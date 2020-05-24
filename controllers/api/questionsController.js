@@ -23,23 +23,12 @@ router.get("/", function (req, res) {
   }).then(answers => {
     db.Question.findAll({
       limit: 5 - answers.length,
-      order: db.sequelize.random()
+      order: db.sequelize.random(),
+      // prevent user from seeing answer
+      attributes: { exclude: ["answer"] }
     })
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
-  });
-});
-
-/**
- * Question - Read One
- */
-router.get("/:id", function (req, res) {
-  db.Question.findAll({
-    where: {
-      id: req.params.id
-    }
-  }).then(function (Question) {
-    res.json(Question);
   });
 });
 

@@ -29,12 +29,12 @@ go to application: https://the-bestimator.herokuapp.com/
 ---
 
 ## Resources:
-* Design:
+* __Design:__
   * [Bulma CSS Framework](https://bulma.io/documentation/overview/start/)
   * [Font Awesome](https://fontawesome.com/)
-* Libraries
+* __Libraries:__
   * [jQuery](https://jquery.com/)
-* Dependencies:
+* __Dependencies:__
   * [bcryptjs](https://www.npmjs.com/package/bcryptjs)
   * [concurrently](https://www.npmjs.com/package/concurrently)
   * [dotenv](https://www.npmjs.com/package/dotenv)
@@ -46,12 +46,12 @@ go to application: https://the-bestimator.herokuapp.com/
   * [passport](https://www.npmjs.com/package/passport)
   * [passport-local](https://www.npmjs.com/package/passport-local)
   * [sequelize](https://www.npmjs.com/package/sequelize)
-* Development Dependencies:
+* __Development Dependencies:__
   * [cypress](https://www.npmjs.com/package/cypress)
   * [eslint](https://www.npmjs.com/package/eslint)
   * [prettier](https://www.npmjs.com/package/prettier)
   * [Insomnia REST Client](https://insomnia.rest/)
-* Deployment:
+* __Deployment:__
   * [Heroku](https://www.heroku.com/home)
   * [JawsDB](https://www.jawsdb.com/)
 
@@ -59,11 +59,11 @@ go to application: https://the-bestimator.herokuapp.com/
 
 ## Tests:
 The cypress tests can be viewed by cloning this repository to your local machine, installing all dependencies, and invoking the test module with `npm run cypress`. This application has tests for the following:
-* integration tests
+* __integration tests:__
   * _canary test
   * login test
   * signup test
-* page layout tests
+* __page layout tests:__
   * game page
   * leaderboard page
   * player page
@@ -79,7 +79,10 @@ The cypress tests can be viewed by cloning this repository to your local machine
 ---
 
 ## Future Development:
-* signup page: notify user if their username is already being used by someone else
-* login page: notify user if their username/password are either incorrect or do not exist
-* allow users to update/delete their account
-* add keyup events to several pages so that user can hit 'enter' key to submit info/guess/etc
+* bug fixes & minor improvements:
+  * signup page: notify user if their username is already being used by someone else (on front-end)
+  * login page: notify user if their username/password are either incorrect or do not exist (on front-end)
+  * add keyup events to several pages so that user can hit 'enter' key to submit info/guess/etc, rather than clicking the button
+* larger plans:
+  * forum page
+  * sponsorship (?)
